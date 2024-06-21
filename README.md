@@ -43,5 +43,5 @@ mvn clean install
 构建完成后，运行以下命令启动软件：
 
 ```bash
-java -cp target/classes:$(mvn dependency:build-classpath | grep -v INFO) com.example.Applicationjava -jar target/gfc-draw-1.0-SNAPSHOT.jar
+java -cp target/classes:$(mvn dependency:build-classpath | grep -v INFO) nju.gfcat.Applicationjava -jar target/gfc-draw-1.0-SNAPSHOT.jar
 ```
